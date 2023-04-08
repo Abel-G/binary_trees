@@ -11,6 +11,6 @@ if (tree == NULL || func == NULL)
 return;
 func(tree->n);
 binary_tree_inorder(tree->left, func);
-func(tree->n)
+func(tree->n);
 binary_tree_inorder(tree->right, func);
 }
